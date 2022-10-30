@@ -69,25 +69,31 @@
                         <form class="feedback" autocomplete="on">
                             <div class="feedback-group">
                                 <label for="name" class="feedback-label">Ім'я</label>
-                                <input type="text" name="name" id="name" autofocus class="feedback-input">
-                                <svg class="feedback-icon" width="18" height="18">
-                                    <use href="./img/icons.svg#icon-person"></use>
-                                </svg>
+                                <div class="feedback-box">
+                                    <input type="text" name="name" id="name" autofocus class="feedback-input">
+                                    <svg class="feedback-icon" width="18" height="18">
+                                        <use href="./img/icons.svg#icon-person"></use>
+                                    </svg>
+                                </div>
                             </div>
                             <div class="feedback-group">
                                 <label for="phone" class="feedback-label">Телефон</label>
-                                <input type="tel" name="phone" id="phone" class="feedback-input">
+                                <div class="feedback-box">
+                                    <input type="tel" name="phone" id="phone" class="feedback-input">
                                 <svg class="feedback-icon" width="18" height="18">
                                     <use href="./img/icons.svg#icon-phone"></use>
                                 </svg>
+                                </div>
                             </div>
                         
                             <div class="feedback-group">
                                 <label for="mail" class="feedback-label">Пошта</label>
-                                <input type="email" name="mail" id="mail" class="feedback-input">
-                                <svg class="feedback-icon" width="18" height="18">
-                                    <use href="./img/icons.svg#icon-email-black"></use>
-                                </svg>
+                                <div class="feedback-box">
+                                    <input type="email" name="mail" id="mail" class="feedback-input">
+                                    <svg class="feedback-icon" width="18" height="18">
+                                        <use href="./img/icons.svg#icon-email-black"></use>
+                                    </svg>
+                                </div>
                             </div>
                         
                             <div class="feedback-group">
@@ -98,7 +104,8 @@
                             <label class="feedback-coordination">
                                 <input type="checkbox" class="checkbox">
                                 <span class="checkbox-icon"></span>
-                                Погоджуюся з розсилкою та приймаю <span class="conditions">Умови договору</span> 
+                                Погоджуюся з розсилкою та приймаю 
+                                <span class="conditions">Умови договору</span> 
                             </label>
 
                             <button type="submit" class="feedback-button">Відправити</button>
